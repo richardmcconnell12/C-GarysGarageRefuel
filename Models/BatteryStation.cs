@@ -8,7 +8,7 @@ namespace GarysGarage
         public int Capacity { get; set; }
         public void Refuel(List<IElectricPowered> vehicles)
         {
-            Console.WriteLine($"Going to refuel {vehicles}");
+            // Console.WriteLine($"Going to refuel {vehicles}");
         }
     }
 }
