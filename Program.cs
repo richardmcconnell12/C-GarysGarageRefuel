@@ -21,10 +21,11 @@ namespace GarysGarage
             PowerTower.Refuel(BatteryVehicles);
 
             Kia KiaSoul = new Kia();
+            Ford Mustang = new Ford();
 
             List<IGasPowered> GasVehicles = new List<IGasPowered>()
             {
-                KiaSoul
+                KiaSoul, Mustang
             };
 
             GasVehicles.ForEach(g => g.Refuel());
